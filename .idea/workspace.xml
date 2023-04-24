@@ -4,22 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0a052e1-ca1d-4276-838c-89d8f0aec83c" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bin-Scripts/服务监控.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HiveAndHudi/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HiveAndHudi/src/main/Hive/DDL.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HiveAndHudi/src/main/Hudi/DDL.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HiveAndHudi/src/main/Hudi/FlinkGuide.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HiveAndHudi/src/main/Hudi/SparkGuide.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HiveAndHudi/src/main/java/xyz/shy/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="e0a052e1-ca1d-4276-838c-89d8f0aec83c" name="变更" comment="add new">
+      <change afterPath="$PROJECT_DIR$/Bin-Scripts/GetOptDemo.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bin-Scripts/GetOptDemo2.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bin-Scripts/GetOptDemo3.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bin-Scripts/GetOptDemo4.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bin-Scripts/GetOptDemo5.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bin-Scripts/GetOptsDemo.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bin-Scripts/LogUtils.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonCode/CommonCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonCode/src/test/scala/IteratorTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonCode/src/test/scala/Test.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bin-Scripts/checkInputDates.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Bin-Scripts/checkInputDates.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonCode/src/main/java/xyz/shy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonCode/src/main/java/xyz/shy/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bin-Scripts/checkInputDates.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Bin-Scripts/DateUtils.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,16 +57,48 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/shy/DevProjects/IdeaProjects/Bigdate-Code-Template/CommonCode/src/test/scala",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "fileTemplates",
+    "project.structure.last.edited": "全局库",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CommonCode/src/test/scala" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.IteratorTest">
+    <configuration name="IteratorTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="IteratorTest" />
+      <module name="CommonCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="CommonCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.IteratorTest" />
+        <item itemvalue="应用程序.Test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -82,8 +111,22 @@
       <workItem from="1678419608495" duration="3431000" />
       <workItem from="1678842096850" duration="6164000" />
       <workItem from="1679019845983" duration="9702000" />
-      <workItem from="1679879240449" duration="893000" />
+      <workItem from="1679879240449" duration="1123000" />
+      <workItem from="1679964547321" duration="855000" />
+      <workItem from="1679985902564" duration="4675000" />
+      <workItem from="1680073474676" duration="1170000" />
+      <workItem from="1680760526260" duration="1378000" />
+      <workItem from="1680940471804" duration="141000" />
+      <workItem from="1681120035575" duration="21126000" />
     </task>
+    <task id="LOCAL-00001" summary="add new">
+      <created>1679918290311</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679918290311</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add new" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
